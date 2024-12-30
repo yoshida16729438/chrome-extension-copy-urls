@@ -1,0 +1,14 @@
+{
+  "name": "chrome_extension_copy_urls",
+  "version": "1.0.0",
+  "description": "chrome extension which copys or pastes URLs",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "yoshida16729438",
+  "license": "ISC",
+  "devDependencies": {
+    "chrome-types": "^0.1.327"
+  }
+}

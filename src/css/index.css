@@ -1,0 +1,28 @@
+html {
+  height: 225px;
+  width: 280px;
+}
+
+button {
+  width: 250px;
+  display: block;
+  margin: 5px;
+}
+
+.container,
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  margin: 2px;
+}
+
+.child-setting{
+    padding-left: 20px;
+}
+
+.text{
+    padding-left: 5px;
+}

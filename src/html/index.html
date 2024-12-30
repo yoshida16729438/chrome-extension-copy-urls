@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/storageManager.js"></script>
+    <script src="../js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="group">
+        <button id="copy">コピー</button>
+        <button id="paste">ペースト</button>
+      </div>
+      <div class="group">
+        <div class="text">コピー時動作設定</div>
+        <div class="checkbox">
+          <input type="checkbox" id="distinct" />
+          <label for="distinct">重複を削除する</label>
+        </div>
+        <div class="checkbox child-setting">
+          <input type="checkbox" id="ignore_id" />
+          <label for="ignore_id">idの違いを無視する</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="ignore_not_http" />
+          <label for="ignore_not_http">http(s)以外を無視する</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="all_windows" />
+          <label for="all_windows">全ウィンドウを対象にする</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
