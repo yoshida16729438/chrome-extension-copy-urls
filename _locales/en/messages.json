@@ -1,0 +1,23 @@
+{
+  "copy": {
+    "message": "copy URLs to clipboard"
+  },
+  "paste": {
+    "message": "open URLs of clipboard"
+  },
+  "settings": {
+    "message": "copy settings"
+  },
+  "distinct": {
+    "message": "eliminate duplications"
+  },
+  "ignore_id": {
+    "message": "ignore difference of id"
+  },
+  "ignore_not_http": {
+    "message": "ignore protocols other than http(s)"
+  },
+  "all_windows": {
+    "message": "copy from all windows"
+  }
+}

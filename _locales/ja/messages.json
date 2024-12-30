@@ -1,0 +1,23 @@
+{
+  "copy": {
+    "message": "コピー"
+  },
+  "paste": {
+    "message": "URLを開く"
+  },
+  "settings": {
+    "message": "コピー時動作設定"
+  },
+  "distinct": {
+    "message": "重複を削除する"
+  },
+  "ignore_id": {
+    "message": "idの違いを無視する"
+  },
+  "ignore_not_http": {
+    "message": "http(s)以外を無視する"
+  },
+  "all_windows": {
+    "message": "全ウィンドウを対象にする"
+  }
+}

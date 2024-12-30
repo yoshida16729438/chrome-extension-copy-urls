@@ -104,4 +104,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   ignoreIdCtl.disabled = !(await getDistinct());
   ignoreNotHttpCtl.checked = await getIgnoreNotHttp();
   allWindowsCtl.checked = await getAllWindows();
+  document.querySelector("#copy").innerHTML = chrome.i18n.getMessage("copy");
+  document.querySelector("#paste").innerHTML = chrome.i18n.getMessage("paste");
+  document.querySelector("#copy_settings").innerHTML = chrome.i18n.getMessage("settings");
+  document.querySelector("#label_distinct").innerHTML = chrome.i18n.getMessage("distinct");
+  document.querySelector("#label_ignore_id").innerHTML = chrome.i18n.getMessage("ignore_id");
+  document.querySelector("#label_ignore_not_http").innerHTML = chrome.i18n.getMessage("ignore_not_http");
+  document.querySelector("#label_all_windows").innerHTML = chrome.i18n.getMessage("all_windows");
 });
